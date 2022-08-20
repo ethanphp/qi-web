@@ -45,7 +45,7 @@ class Map extends React.Component {
 
 const LiveMap = compose(
   withProps({
-    googleMapURL: `https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_API_KEY}&libraries=places`,
+    googleMapURL: `https://maps.googleapis.com/maps/api/js?key=${process.keys.env.REACT_APP_GOOGLE_API_KEY}&libraries=places`,
     loadingElement: <div style={{ height: `100%` }} />,
     containerElement: <div style={{ height: '100%' }} />,
     mapElement: <div style={{ height: '100%' }} />,
